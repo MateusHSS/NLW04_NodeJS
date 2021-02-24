@@ -34,3 +34,19 @@
     - Criando uma migration: ''' yarn typeorm migration:create -n "NomeDaMigration" '''
     - Rodando as migrations: ''' yarn typeorm migration:run '''
     - Rollback na ultima migration: ''' yarn typeorm migration:revert '''
+
+# AULA 3
+
+## Testes automatizados:
+    
+### Tipos de testes
+    - Testes unitarios: Testes que testam determinada funcionalidade da aplicacao (Geralmente testado criando informacoes fake, apenas para teste)
+    - Testes de integracao: Teste que testa todo o fluxo da requisicao e resposta do usuario
+    - Testes ponta a ponta: Testa todas as acoes do usuario (Geralmente utilizado no front end)
+
+## Packages
+    - jest: Package que sera utilizado para os testes da aplicacao
+    - @types/jest: Package com todos os tipos necessarios no package jest
+    - ts-jest: Preset utilizado para uso de typescript nos testes 
+    - supertest: Package utilizado para auxilio nos testes de integracao com jest
+    - @types/supertest: Package com todos os tipos necessarios no package supertest
