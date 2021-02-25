@@ -50,3 +50,9 @@
     - ts-jest: Preset utilizado para uso de typescript nos testes 
     - supertest: Package utilizado para auxilio nos testes de integracao com jest
     - @types/supertest: Package com todos os tipos necessarios no package supertest
+
+# AULA 4
+
+## Packages:
+    - nodemailer: Package utilizado para envio de emails no node
+    - handlebars: Package que permite a criacao de templates HTML com variaveis node
