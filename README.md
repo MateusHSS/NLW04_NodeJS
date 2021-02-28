@@ -56,3 +56,10 @@
 ## Packages:
     - nodemailer: Package utilizado para envio de emails no node
     - handlebars: Package que permite a criacao de templates HTML com variaveis node
+
+# AULA 5
+
+## Packages:
+
+    -yup: Package utilizado para fazer validacoes na aplicacao
+    -express-async-errors: Package utilizado para que o express saiba lidar com os erros retornados pela aplicacao
